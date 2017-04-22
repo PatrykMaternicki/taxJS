@@ -41,7 +41,7 @@ If you want more examples, check main.js
 
 ## Methods:
 - init: set json file (options params (use to validate input data), tax value)
-- run: run lib.
+- run: run lib. (valid, construct, and run construct object)
 - getInputData: get inputs data.
 - initError: set error.
 
@@ -62,7 +62,36 @@ If you want more examples, check main.js
 - pushPackage: push corect input data.
 - testClass: test class.
 
-- 
+### Builder
+- Construct Object (orderWoker or employWorker)
+
+## Methods:
+ - setPackage: set package (input data)
+ - build: decide what I must construct.
+ - constructToEmployWorker: construct Employ worker.
+ - constructToOrderWorker : construct Order worker.
+ - setObject: set constructed object.
+ - setFinishConstruct: true when object is constructed.
+ - isFinishConstruct: construct is finish
+ 
+### EmployWorker:
+- calculate salary and tax employ worker.
+
+## Methods:
+- run: run Object.
+- getSalaryBrutto: calculate salary Brutto.
+- getSalaryNetto: calculate salary Netto.
+- testClass: test.
+
+### OrderWorker:
+- calculate salary and tax order worker.
+** Not implemented **
+
+### Taxes:
+-calculate income,health,basic tax.
+
+### Dues:
+ 
 
 
 
