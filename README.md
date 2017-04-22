@@ -88,10 +88,10 @@ If you want more examples, check main.js
 ** Not implemented **
 
 ### Taxes:
--calculate income,health,basic tax.
+- calculate income,health,basic tax.
 
 ### Dues:
- 
+- calculate pension,sick,rentiement dues. 
 
 
 
